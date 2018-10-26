@@ -23,3 +23,9 @@ div{
     font-family: fantasy;
     color:rgb(26, 73, 26);
 }
+
+aside{
+    font-family: cursive;
+    color:blueviolet;
+    font-size:78%;
+}
