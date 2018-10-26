@@ -18,19 +18,14 @@
     font-family: fantasy;
 }
 
-div{
-    font-size: 200%;
-    font-family: fantasy;
-    color:rgb(26, 73, 26);
-}
-
 aside{
     font-family: cursive;
     color:blueviolet;
     font-size:78%;
 }
 
-p{
-    background-color: darkblue;
-    color:whitesmoke;
+#mainTest{
+    background-color:lightgreen;
+    color:darkslategrey;
+    padding:15px;
 }
