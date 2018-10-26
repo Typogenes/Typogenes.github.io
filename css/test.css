@@ -12,7 +12,7 @@
 
 #mainSection{
     text-shadow:violet;
-    background-color:cadetblue;
+    background-image:image-set(./images/testback.jpg);
     text-align:end;
     font-size: 153%;
     font-family: fantasy;
