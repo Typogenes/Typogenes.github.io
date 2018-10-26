@@ -20,5 +20,6 @@
 
 #divTest{
     font-size: 200%;
-    color:palegreen;
+    font-family: fantasy;
+    color:rgb(26, 73, 26);
 }
