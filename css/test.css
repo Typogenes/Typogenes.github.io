@@ -29,3 +29,7 @@ aside{
     color:darkslategrey;
     padding:15px;
 }
+
+form{
+    text-align:right;
+}
