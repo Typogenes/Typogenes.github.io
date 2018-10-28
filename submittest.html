@@ -6,10 +6,30 @@
 
     <body>
         Thank You
-        <img height="1" width="1" style="border-style:none;" alt="" src="//insight.adsrvr.org/track/conv/?adv=64lenl4&ct=0:gh0xuvs&fmt=3&td1={firstName}&td2={favCandy}&td3={age}" />
-        <script>
-            
-        </script>
-    </body>
+         <script type="text/javascript">
+            function getParameterByName(name, url) {
+                if (!url) url = window.location.href;
+                name = name.replace(/[\[\]]/g, "\\$&");
+                var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, " "));
+            }
 
+       
+            var firstName = getParameterByName('firstName');
+            var lastName = getParameterByName('lastName');
+            var favCandy = getParameterByName('favCandy');
+            var age = getParameterByName('age');
+        </script>
+
+        <p id="demo"></p>
+
+        <script>
+            document.getElementById("demo").innerHTML = "<p>Thank you " +firstName+ " " +lastName+ "<p>Your age is: " +age+ "<p>Your favorite candy is: " +favCandy;
+        </script>
+
+
+    </body>
 </html>
